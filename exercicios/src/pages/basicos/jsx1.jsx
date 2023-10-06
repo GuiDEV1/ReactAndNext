@@ -2,7 +2,7 @@
 export default function jsxDiferente(){
     return (
         <div>
-            <h1>JSX #01</h1>
+            <h1 className="vermelha">JSX #01</h1>
         </div>
     )
 }
