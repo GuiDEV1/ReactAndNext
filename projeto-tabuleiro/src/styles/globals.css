@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #333;
+}
+
+@layer components {
+    .casasBrancas {
+        @apply bg-white w-[50px] h-[50px] md:w-[80px] md:h-[80px];
+    }
+
+    .casasPretas {
+        @apply bg-black w-[50px] h-[50px] md:w-[80px] md:h-[80px];
+    }
+}
