@@ -1,4 +1,4 @@
-
+//Minha solucão
 export default function Tabuleiro() {
     return (
         <div>
