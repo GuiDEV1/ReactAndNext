@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export default function mouse() {
   
+  // React Hooks
   const [x, setX] = useState(0);
  
 
@@ -23,7 +24,6 @@ export default function mouse() {
     setX(ev.clientX);
     alterarY(ev.clientY);
   }
-  
 
   return(
     <div style={style} onMouseMove={quandoMover}>
